@@ -1,0 +1,16 @@
+{   "code": 0,
+    "msg": "",
+    "count": 1,
+    "data": [
+        {
+            "id": "6",
+            "username": "linghu",
+            "nickname": "令狐葱",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "linghu@qq.com",
+            "userface": "https://ww2.sinaimg.cn/orj360/6ade95c9gy1gs1dlvznq5j20rs1if7wh.jpg",
+            "regTime": "2017/12/8 09:30:22"
+        }
+    ]
+}
