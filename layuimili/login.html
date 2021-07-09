@@ -155,10 +155,12 @@
             </div>
         </div>
     </div>
+
     <script src="lib/jquery-3.4.1/jquery-3.4.1.min.js" charset="utf-8"></script>
     <script src="lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
     <script src="lib/jq-module/jquery.particleground.min.js" charset="utf-8"></script>
     <script>
+
         layui.use(['form'], function () {
             var $ = layui.$ //重点处
                 , layer = layui.layer
@@ -171,13 +173,7 @@
             // 登录过期的时候，跳出ifram框架
             if (top.location != self.location) top.location = self.location;
 
-            // 粒子线条背景
-            $(document).ready(function () {
-                $('.layui-container').particleground({
-                    dotColor: '#7ec7fd',
-                    lineColor: '#7ec7fd'
-                });
-            });
+
 
             // 进行登录操作
             form.on('submit(login)', function (data) {
@@ -199,20 +195,27 @@
                     data: { 'username': data.username, 'password': data.password },
                     // type: "post",
                     dataType: "json",
-                    headers: { 'Content-Type': 'application/json;charset=utf-8' }, //接口json格式
+                    // headers: { 'Content-Type': 'application/json;charset=utf-8' }, //接口json格式
                     success: function (data) {
                         console.log(data);
-                        layer.alert(JSON.stringify(data));
+                        window.sessionStorage.setItem("user", JSON.stringify(data.data));
+                        layer.msg('登录成功', { time: 500 }, function () {
+                            window.location = 'index.html';
+                        });
                     },
                     error: function (data) {
-                        layer.alert("失败");
+                        layer.msg('服务繁忙');
                     }
                 });
-                // layer.msg('登录成功', function () {
-                //     window.location = 'index.html';
-                // });
+
                 return false;
             });
+        });
+    </script>
+    <script>
+        $('.layui-container').particleground({
+            dotColor: '#7ec7fd',
+            lineColor: '#7ec7fd'
         });
     </script>
 </body>

@@ -55,7 +55,7 @@
             },
             {
               "title": "用户管理",
-              "href": "page/menu.html",
+              "href": "page/user.html",
               "icon": "fa fa-user",
               "target": "_self"
             }

@@ -63,7 +63,7 @@
             <table class="layui-hide" id="currentTableId" lay-filter="currentTableFilter"></table>
 
             <script type="text/html" id="currentTableBar">
-            <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit">编辑</a>
+            <a class="layui-btn layui-btn-normal layui-btn-xs data-count-edit" lay-event="edit1">编辑</a>
             <a class="layui-btn layui-btn-xs layui-btn-danger data-count-delete" lay-event="delete">删除</a>
         </script>
 
@@ -71,7 +71,7 @@
     </div>
     <script src="../lib/layui-v2.6.3/layui.js" charset="utf-8"></script>
     <script>
-        layui.use(['form', 'table'], function () {
+        layui.use(['jquery', 'form', 'table'], function () {
             var $ = layui.jquery,
                 form = layui.form,
                 table = layui.table;
@@ -88,7 +88,7 @@
                 cols: [[
                     { type: "checkbox", width: 50 },
                     { field: 'id', width: 80, title: 'ID', sort: true },
-                    { field: 'username', width: 80, title: '用户名' },
+                    { field: 'username', width: 80, title: '用户名', edit: 'text' },
                     { field: 'sex', width: 80, title: '性别', sort: true },
                     { field: 'city', width: 80, title: '城市' },
                     { field: 'sign', title: '签名', minWidth: 150 },
@@ -148,7 +148,7 @@
                 }
             });
 
-            //监听单元格编辑
+            // //监听单元格编辑
             table.on('edit(currentTableFilter)', function (obj) {
                 var value = obj.value //得到修改后的值
                     , data = obj.data //得到所在行所有键值
@@ -163,7 +163,7 @@
 
             table.on('tool(currentTableFilter)', function (obj) {
                 var data = obj.data;
-                if (obj.event === 'edit') {
+                if (obj.event === 'edit1') {
 
                     var index = layer.open({
                         title: '编辑用户',

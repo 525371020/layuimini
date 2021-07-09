@@ -1,0 +1,117 @@
+{
+    "code": 0,
+    "msg": "",
+    "count": 20,
+    "data": [
+        {
+            "id": "6",
+            "username": "linghu",
+            "nickname": "令狐葱",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "linghu@qq.com",
+            "userface": "https://ww2.sinaimg.cn/orj360/6ade95c9gy1gs1dlvznq5j20rs1if7wh.jpg",
+            "regTime": "8/12/2017 09:30:22"
+        },
+        {
+            "id": "7",
+            "username": "sang",
+            "nickname": "江南一点雨",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "sang123@qq.com",
+            "userface": "https://ww1.sinaimg.cn/bmiddle/0077pDdkly1gs1qotzq26j30ku0b4gn5.jpg",
+            "regTime": "21/12/2017 13:30:29"
+        },
+        {
+            "id": "10",
+            "username": "qiaofeng",
+            "nickname": "乔峰",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "qiaofeng@qq.com",
+            "userface": "https://ww3.sinaimg.cn/orj360/005VU9uDly1gs1f615lsgj30z70jt0vj.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "13",
+            "username": "duanzhengchun",
+            "nickname": "段正淳",
+            "password": "{noop}123",
+            "enabled": "0",
+            "email": "duanzhengchun@qq.com",
+            "userface": "https://ww3.sinaimg.cn/bmiddle/0077pDdkly1gs1qou9bavj30go09ejso.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "14",
+            "username": "chenjialuo",
+            "nickname": "陈家洛",
+            "password": "{noop}123",
+            "enabled": "0",
+            "email": "chenjialuo@qq.com",
+            "userface": "https://ww1.sinaimg.cn/orj360/9ff5c541ly1gs2bl66v2cg20d009vna7.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "15",
+            "username": "yuanchengzhi",
+            "nickname": "袁承志",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "yuanchengzhi@qq.com",
+            "userface": "https://ww4.sinaimg.cn/orj360/63a09ba0gy1fyudf31shfj20b40epjsg.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "16",
+            "username": "chuliuxiang",
+            "nickname": "楚留香",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "chuliuxiang@qq.com",
+            "userface": "https://ww2.sinaimg.cn/orj360/007wkUAqly1gs1ke902imj30ms09ptb2.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "17",
+            "username": "baizhantang",
+            "nickname": "白展堂",
+            "password": "{noop}123",
+            "enabled": "0",
+            "email": "baizhantang@qq.com",
+            "userface": "https://ww2.sinaimg.cn/orj360/6ade95c9gy1gs1dlvznq5j20rs1if7wh.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "18",
+            "username": "renwoxing",
+            "nickname": "任我行",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "renwoxing@qq.com",
+            "userface": "https://ww2.sinaimg.cn/orj360/006UKmduly1gs1klg6lozj33361k6he4.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "19",
+            "username": "zuolengchan",
+            "nickname": "左冷禅",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "zuolengchan@qq.com",
+            "userface": "https://ww2.sinaimg.cn/bmiddle/b86f1f3dgy1gs1e02sbzdj20ku0gatdf.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        },
+        {
+            "id": "20",
+            "username": "fengqingyang",
+            "nickname": "风清扬",
+            "password": "{noop}123",
+            "enabled": "1",
+            "email": "fengqingyang@qq.com",
+            "userface": "https://ww1.sinaimg.cn/bmiddle/b86f1f3dgy1gs1e0214u9j20nb0e77vb.jpg",
+            "regTime": "24/12/2017 06:30:46"
+        }
+    ]
+}
